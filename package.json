@@ -1,0 +1,24 @@
+{
+  "name": "proyouthbackend",
+  "version": "1.0.0",
+  "description": "Backend Server For The ProYouth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Pranav Jadhav , Bhakti Vaidya , Aditya Bahl",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2",
+    "nodemailer": "^6.9.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "otp-generator": "^4.0.1",
+    "validator": "^13.9.0"
+  }
+}

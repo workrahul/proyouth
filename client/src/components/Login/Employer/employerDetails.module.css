@@ -1,0 +1,104 @@
+.details-container {
+  text-align: center;
+  height: 60rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 9rem 0rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 8rem;
+}
+
+.form-subfields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+.form-subfields label,
+.details-container p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696b79;
+}
+
+.details-container h1 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.form-fields .tools {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-fields .tools .tool {
+  display: flex;
+  justify-content: center;
+}
+
+.form-fields input {
+  width: 20rem;
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  padding: 5px;
+}
+
+.form-fields input:focus {
+  outline: none;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1rem;
+  margin-top: -2rem;
+}
+
+.textarea textarea {
+  text-align: left;
+  width: 55rem;
+  height: 12rem;
+  border: 1px solid #696b79;
+  padding: 1rem;
+}
+
+.textarea textarea:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 1rem;
+  width: 10rem;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 20px;
+  display: inline-block;
+  margin: 1rem;
+  background: #ffffff;
+  border: 1px solid #696b79;
+  box-shadow: 4px 4px 0px #000000;
+}

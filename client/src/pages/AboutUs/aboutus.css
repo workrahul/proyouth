@@ -1,0 +1,38 @@
+.content-container {
+  display: flex;
+  height: 1000px;
+  width: 90%;
+  margin: auto;
+}
+
+.written-content-container {
+  width: 50%;
+  margin: auto;
+  padding: 3rem 4rem;
+}
+
+.written-content-container h1 {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 108px;
+  color: #000000;
+}
+
+.written-content-container h3 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.written-content-container p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #696b79;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}

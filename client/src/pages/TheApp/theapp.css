@@ -1,0 +1,36 @@
+.coming-soon {
+  width: 100%;
+  height: 615px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.coming-soon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.coming-soon-text h1 {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 108px;
+  color: #000000;
+}
+
+.coming-soon-text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #696b79;
+}
+
+.coming-soon-text a{
+    text-decoration: none;
+    color:rgba(0, 102, 255, 1);
+}
+
+.coming-soon-img{
+    padding-top: 7rem;
+}

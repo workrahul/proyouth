@@ -1,0 +1,50 @@
+.jobcard {
+  width: 90rem;
+  height: 20rem;
+  margin: 2rem auto;
+  background: #ffffff;
+  border: 1px solid #696b79;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-details {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 35px;
+}
+
+.jobtitle {
+  width: 10rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+.jobdescription {
+  width: 90%;
+  margin: 1.5rem 2rem;
+  height: 36px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: justify;
+  color: #696b79;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
